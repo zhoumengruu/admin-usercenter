@@ -7,7 +7,7 @@
 			<div class="login-right">
 				<h2>欢迎登录</h2>
 				<el-form :model="loginForm" :rules="rules" ref="loginForm"  class="demo-ruleForm" >
-					<el-form-item  prop="name">
+					<el-form-item  prop="username">
 						<el-input v-model="loginForm.username" placeholder="请输入您的用户名"></el-input>
 					</el-form-item>
 					<el-form-item  prop="password">
